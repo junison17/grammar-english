@@ -2,7 +2,7 @@
 import streamlit as st
 import openai
 import os
-import base64
+
 
 # Setting up OpenAI API key
 api_key = os.environ.get("OPENAI_API_KEY")
@@ -15,7 +15,7 @@ st.markdown(
     f'''
     <style>
         .reportview-container {{
-            background: url(data:img.jpg;base64,{base64.b64encode(open("C:/grammar-english/img.jpg", "rb").read()).decode()}) no-repeat center center fixed;
+          
             background-size: cover;
         }}
         .main .block-container {{
