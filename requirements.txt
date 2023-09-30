@@ -1,0 +1,7 @@
+openai
+pythonenv-dotenv
+streamlit
+os
+path
+fs
+base64
